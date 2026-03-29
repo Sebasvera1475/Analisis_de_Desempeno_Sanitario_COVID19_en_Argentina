@@ -33,63 +33,20 @@ y modelado supervisado (regresión) para:
 
 ---
 
-## Estructura del repositorio
+## Contenido del repositorio
 
 ```
 covid-desempeno-sanitario/
 ├── README.md                        # Este archivo
-├── requirements.txt                 # Dependencias del proyecto
-├── data/
-│   └── INSTRUCCIONES_DATOS.md       # Cómo obtener el dataset
-├── notebooks/
-│   ├── 00_configuracion.ipynb       # Imports y paleta de colores
-│   ├── 01_carga_y_eda.ipynb         # Exploración inicial
-│   ├── 02_limpieza_y_estandarizacion.ipynb
-│   ├── 03_feature_engineering.ipynb # Variables derivadas
-│   ├── 04_kpis_y_visualizaciones.ipynb
-│   ├── 05_clustering.ipynb          # K-Means + Jerárquico
-│   ├── 06_modelado_supervisado.ipynb
-│   └── 07_valor_de_negocio.ipynb    # Simulación y recomendaciones
-├── outputs/
-│   ├── graficos/                    # PNG generados por los notebooks
-│   └── tablas/                      # CSV exportados
+├── Notebooks/
+│   ├── Grupo 7 - Proyecto Covid-19.ipynb
+└── CSV/
+│   └── covid_internados.csv
 └── informe/
-    └── Grupo7_Informe_Final.pdf
-```
-
----
-
-## Requisitos e instalación
-
-### Python
-Este proyecto requiere **Python 3.9 o superior**.
-
-### Instalación de dependencias
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/[usuario]/covid-desempeno-sanitario.git
-cd covid-desempeno-sanitario
-
-# 2. Crear entorno virtual (recomendado)
-python -m venv venv
-source venv/bin/activate        # Linux / Mac
-venv\Scripts\activate           # Windows
-
-# 3. Instalar dependencias
-pip install -r requirements.txt
-```
-
-### Contenido de `requirements.txt`
-
-```
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-scikit-learn>=1.2.0
-scipy>=1.9.0
-jupyter>=1.0.0
+│   └── Grupo 7 - Informe Proyecto Final Covid-19
+└── Presentacion/
+    └── Grupo 7 - Presentacion Covid-19
+    
 ```
 
 ---
@@ -101,31 +58,13 @@ en su versión original). Para obtenerlo:
 
 1. Acceder al portal oficial:
    [datos.gob.ar](https://datos.gob.ar/dataset/salud-covid-19-casos-registrados-republica-argentina)
-2. Descargar el archivo `Covid19Casos.csv`
-3. Ejecutar el notebook `02_limpieza_y_estandarizacion.ipynb` para
+2. Descargar el archivo `Covid19Casos.csv` en caso que quiera conocer le archivo completo.
+3. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv`.
+4. Ejecutar el notebook `Grupo 7 - Proyecto Covid-19.ipynb` para
    generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
    que utilizan los notebooks posteriores.
 
-El archivo `data/INSTRUCCIONES_DATOS.md` detalla el proceso completo
-de descarga y filtrado.
-
 ---
-
-## Orden de ejecución
-
-Los notebooks están numerados en orden de ejecución. Cada uno lee
-los archivos generados por el anterior:
-
-| Notebook | Entrada | Salida principal |
-|----------|---------|-----------------|
-| 00 | — | Configuración global |
-| 01 | `Covid19Casos.csv` | Exploración inicial |
-| 02 | `Covid19Casos.csv` | `covid_internados_limpio.csv` |
-| 03 | `covid_internados_limpio.csv` | Dataset con variables derivadas |
-| 04 | Dataset limpio | Gráficos KPIs |
-| 05 | `matriz_kpis_*.csv` | `clusters_resultado_*.csv` |
-| 06 | Dataset limpio | `modelo_supervisado_resultados.csv` |
-| 07 | Resultados previos | Gráficos y recomendaciones |
 
 ---
 
@@ -133,14 +72,14 @@ los archivos generados por el anterior:
 
 El proyecto sigue la metodología **CRISP-DM**:
 
-| Fase CRISP-DM | Notebooks |
-|---------------|-----------|
-| Comprensión del negocio | README + Informe |
-| Comprensión de los datos | 01, 02 |
-| Preparación de los datos | 02, 03 |
-| Modelado | 05, 06 |
-| Evaluación | 06, 07 |
-| Despliegue | 07 + Informe |
+| Fase CRISP-DM |
+|---------------|
+| Comprensión del negocio |
+| Comprensión de los datos |
+| Preparación de los datos |
+| Modelado |
+| Evaluación |
+| Despliegue |
 
 ---
 
@@ -151,7 +90,7 @@ El proyecto sigue la metodología **CRISP-DM**:
 - **Regresión**: el modelo seleccionado explica una proporción
   significativa de la varianza en mortalidad entre sistemas
   hospitalarios (R² > baseline).
-- **H5 confirmada**: persisten diferencias sistemáticas de mortalidad
+- **H1 y H2 confirmada**: persisten diferencias sistemáticas de mortalidad
   entre sistemas hospitalarios provinciales aun controlando por edad,
   severidad y sector de los pacientes atendidos.
 - **Benchmarking**: se estiman vidas evitables si los sistemas
@@ -177,12 +116,12 @@ El proyecto sigue la metodología **CRISP-DM**:
 
 ## Equipo
 
-| Integrante | Rol principal |
-|------------|--------------|
-| Sebastian Vera | |
-| Jessica Marcela Kaufman | |
-| Matias Lercari | |
-| Juan Pablo Villareal Nuñez | |
+| Integrante |
+|------------|
+| Sebastian Vera |
+| Jessica Marcela Kaufman |
+| Matias Lercari |
+| Juan Pablo Villareal Nuñez |
 
 ---
 
@@ -190,4 +129,5 @@ El proyecto sigue la metodología **CRISP-DM**:
 
 Datos fuente: Ministerio de Salud de la Nación Argentina.
 Licencia Creative Commons Attribution 4.0 International (CC BY 4.0).
+
 
