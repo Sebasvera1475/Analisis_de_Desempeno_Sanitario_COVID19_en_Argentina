@@ -121,7 +121,7 @@ El proyecto sigue la metodología **CRISP-DM**:
 | Jessica Marcela Kaufman |
 | Matias Lercari |
 | Juan Pablo Villareal Nuñez |
-| Sebastian Vera |
+| [Sebastian Vera](https://linkedin.com/in/sebastianvera2018) |
 
 ---
 
