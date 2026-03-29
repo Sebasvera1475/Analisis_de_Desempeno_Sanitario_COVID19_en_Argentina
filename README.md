@@ -47,8 +47,9 @@ Covid Desempeno Sanitario/
 └── Presentacion/
     └── Grupo 7 - Presentacion Covid-19
 
-```
+
 ---
+
 ## Datos
 
 ```
@@ -67,7 +68,6 @@ Ejecucion del Dataset y Notebook:
      que utilizan los notebooks posteriores.
 
 
-```
 ---
 
 ## Metodología
