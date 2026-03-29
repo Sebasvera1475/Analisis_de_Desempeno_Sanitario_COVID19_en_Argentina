@@ -48,11 +48,10 @@ Covid Desempeno Sanitario/
     └── Grupo 7 - Presentacion Covid-19
 
 
+```
 ---
 
 ## Datos
-
----
 
 El dataset completo **no se incluye en este repositorio** por su tamaño (~6 GB
 en su versión original). Para obtenerlo:
@@ -71,8 +70,6 @@ Ejecucion del Dataset y Notebook:
 ---
 
 ## Metodología
-
-```
 
 El proyecto sigue la metodología **CRISP-DM**:
 
@@ -133,3 +130,4 @@ El proyecto sigue la metodología **CRISP-DM**:
 
 Datos fuente: Ministerio de Salud de la Nación Argentina.
 Licencia Creative Commons Attribution 4.0 International (CC BY 4.0).
+
