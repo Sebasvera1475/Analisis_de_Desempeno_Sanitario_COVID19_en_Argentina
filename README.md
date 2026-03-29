@@ -52,7 +52,7 @@ Covid Desempeno Sanitario/
 
 ## Datos
 
-```
+---
 
 El dataset completo **no se incluye en este repositorio** por su tamaño (~6 GB
 en su versión original). Para obtenerlo:
@@ -133,4 +133,3 @@ El proyecto sigue la metodología **CRISP-DM**:
 
 Datos fuente: Ministerio de Salud de la Nación Argentina.
 Licencia Creative Commons Attribution 4.0 International (CC BY 4.0).
-
