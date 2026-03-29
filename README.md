@@ -47,7 +47,6 @@ Covid Desempeno Sanitario/
 └── Presentacion/
     └── Grupo 7 - Presentacion Covid-19
 
-
 ```
 ---
 
@@ -60,7 +59,7 @@ en su versión original). Para obtenerlo:
   2. Descargar el archivo `Covid19Casos.csv` en caso que quiera conocer el archivo completo.
 
 Ejecucion del Dataset y Notebook:
-  1. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv`. Desde el siguiente 
+  1. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv` desde el siguiente 
      enlace https://drive.google.com/file/d/1wTv6yeMsqVeuErM9lSkBNio-SIqoLRyj/view?usp=drive_link
   2. Ejecutar el notebook `Grupo 7 - Proyecto Covid-19.ipynb` para
      generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
