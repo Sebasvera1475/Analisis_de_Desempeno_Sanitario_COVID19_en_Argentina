@@ -46,31 +46,30 @@ Covid Desempeno Sanitario/
 │   └── Grupo 7 - Informe Proyecto Final Covid-19
 └── Presentacion/
     └── Grupo 7 - Presentacion Covid-19
-    
-```
 
 ---
 
 ## Datos
 
+```
 El dataset completo **no se incluye en este repositorio** por su tamaño (~6 GB
 en su versión original). Para obtenerlo:
-
-1. Acceder al portal oficial:
-   [datos.gob.ar](https://datos.gob.ar/dataset/salud-covid-19-casos-registrados-republica-argentina)
-2. Descargar el archivo `Covid19Casos.csv` en caso que quiera conocer el archivo completo.
+  1. Acceder al portal oficial:
+     [datos.gob.ar](https://datos.gob.ar/dataset/salud-covid-19-casos-registrados-republica-argentina)
+  2. Descargar el archivo `Covid19Casos.csv` en caso que quiera conocer el archivo completo.
 
 Ejecucion del Dataset y Notebook:
-1. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv`.
-2. Ejecutar el notebook `Grupo 7 - Proyecto Covid-19.ipynb` para
-   generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
-   que utilizan los notebooks posteriores.
-
----
+  1. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv`. Desde el siguiente 
+     enlace 
+  2. Ejecutar el notebook `Grupo 7 - Proyecto Covid-19.ipynb` para
+     generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
+     que utilizan los notebooks posteriores.
 
 ---
 
 ## Metodología
+
+```
 
 El proyecto sigue la metodología **CRISP-DM**:
 
@@ -124,12 +123,10 @@ El proyecto sigue la metodología **CRISP-DM**:
 | Matias Lercari |
 | Juan Pablo Villareal Nuñez |
 | Sebastian Vera |
+
 ---
 
 ## Licencia
 
 Datos fuente: Ministerio de Salud de la Nación Argentina.
 Licencia Creative Commons Attribution 4.0 International (CC BY 4.0).
-
-
-
