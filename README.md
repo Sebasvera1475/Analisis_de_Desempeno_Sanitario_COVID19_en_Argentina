@@ -47,11 +47,13 @@ Covid Desempeno Sanitario/
 └── Presentacion/
     └── Grupo 7 - Presentacion Covid-19
 
+
 ---
 
 ## Datos
 
 ```
+
 El dataset completo **no se incluye en este repositorio** por su tamaño (~6 GB
 en su versión original). Para obtenerlo:
   1. Acceder al portal oficial:
@@ -60,7 +62,7 @@ en su versión original). Para obtenerlo:
 
 Ejecucion del Dataset y Notebook:
   1. Descargar y gardar en la carpeta de trabajo el archivo `covid_internados.csv`. Desde el siguiente 
-     enlace 
+     enlace https://drive.google.com/file/d/1wTv6yeMsqVeuErM9lSkBNio-SIqoLRyj/view?usp=drive_link
   2. Ejecutar el notebook `Grupo 7 - Proyecto Covid-19.ipynb` para
      generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
      que utilizan los notebooks posteriores.
