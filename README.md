@@ -47,9 +47,8 @@ Covid Desempeno Sanitario/
 └── Presentacion/
     └── Grupo 7 - Presentacion Covid-19
 
-
+```
 ---
-
 ## Datos
 
 ```
@@ -67,6 +66,8 @@ Ejecucion del Dataset y Notebook:
      generar el dataset filtrado `covid_internados_limpio.csv` (~120 MB)
      que utilizan los notebooks posteriores.
 
+
+```
 ---
 
 ## Metodología
@@ -132,3 +133,4 @@ El proyecto sigue la metodología **CRISP-DM**:
 
 Datos fuente: Ministerio de Salud de la Nación Argentina.
 Licencia Creative Commons Attribution 4.0 International (CC BY 4.0).
+
