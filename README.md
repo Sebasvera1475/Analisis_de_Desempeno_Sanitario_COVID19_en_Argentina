@@ -1,6 +1,6 @@
 # Análisis de Desempeño Sanitario durante COVID-19 en Argentina
 ### Diplomatura en Ciencia de Datos y Análisis Avanzado — UTN BA
-**Grupo 7** | Sebastian Vera · Jessica Marcela Kaufman · Matias Lercari · Juan Pablo Villareal Nuñez
+**Grupo 7** | [Sebastian Vera](www.linkedin.com/in/sebastianvera2018) · Jessica Marcela Kaufman · Matias Lercari · Juan Pablo Villareal Nuñez
 
 ---
 
